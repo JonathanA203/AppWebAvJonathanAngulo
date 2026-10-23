@@ -1,0 +1,58 @@
+# --- Herramientas / agentes de IA (memoria y configuracion local) ---
+.workbuddy-ai/
+.claude/
+
+# --- Secretos y configuracion local ---
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+*.p12
+*.user
+*.pubxml
+*.publishsettings
+secrets.*
+appsettings.Development.json
+appsettings.Local.json
+
+# --- Respaldos y volcados de base de datos ---
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.bacpac
+*.dump
+
+# --- IDE / editor ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.sln.docstates
+
+# --- Build / salida ---
+bin/
+obj/
+publish/
+*.log
+logs/
+TestResults/
+
+# --- IIS / ASP temporales ---
+App_Data/
+ASP Compiled Templates/
+*.tmp
+*.temp
+
+# --- Sistema operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- Archivos comprimidos locales ---
+*.zip
+*.rar
+*.7z
